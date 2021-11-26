@@ -115,6 +115,13 @@ public class MainActivity extends AppCompatActivity {
         resultado = numero1 * 29.5735;
         tv.setText(resultado.toString());
     }
+    
+    public void onClickRaiz(View miView){
+        TextView tv = (TextView) findViewById(R.id.textView);
+        onClickOperacionCapturaNumero1(miView);
+        resultado =Math.sqrt(numero1);
+        tv.setText(resultado.toString());
+    }
 
     public void onClickIgual(View miView){
         TextView tv = (TextView) findViewById(R.id.textView);

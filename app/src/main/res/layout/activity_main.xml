@@ -38,10 +38,10 @@
         android:onClick="onClickDivide"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629"
+        app:layout_constraintVertical_bias="0.607"
         app:srcCompat="@drawable/division" />
 
     <ImageView
@@ -66,7 +66,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627"
+        app:layout_constraintVertical_bias="0.605"
         app:srcCompat="@drawable/multi" />
 
     <ImageView
@@ -105,7 +105,7 @@
         app:layout_constraintHorizontal_bias="0.174"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906"
+        app:layout_constraintVertical_bias="0.849"
         app:srcCompat="@drawable/equalsbutton" />
 
     <ImageView
@@ -209,7 +209,7 @@
         app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641"
+        app:layout_constraintVertical_bias="0.619"
         app:srcCompat="@drawable/num0" />
 
     <ImageView
@@ -222,7 +222,7 @@
         app:layout_constraintHorizontal_bias="0.169"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786"
+        app:layout_constraintVertical_bias="0.748"
         app:srcCompat="@drawable/deletebutton" />
 
     <ImageView
@@ -236,6 +236,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.855"
         app:srcCompat="@drawable/oz_ml" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickRaiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/raiz" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
